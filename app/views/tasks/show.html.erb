@@ -1,1 +1,11 @@
 <h1><%= @task.title %></h1>
+
+<h2><%= @task.details %></h2>
+
+<div>
+  <%=link_to '⏪ Back to list', tasks_path %>
+</div>
+
+<div>
+  <%=link_to 'Edit', edit_path %>
+</div>
